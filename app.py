@@ -81,12 +81,32 @@ if solo_vacunas:
 nuevos = f[f["fecha_inicio"] >= hoy - timedelta(days=30)]
 fin_proximo = f[f["fecha_fin_prevista"].between(hoy, hoy + timedelta(days=30))]
 
-c1, c2, c3, c4 = st.columns(4)
+@st.cache_data
+def cargar_eventos():
+    ruta = LIMPIOS / "eventos.csv"
+    if not ruta.exists():
+        return pd.DataFrame(columns=["fecha", "evento", "cn", "nombre"])
+    return pd.read_csv(ruta, dtype={"cn": str}, parse_dates=["fecha"])
+
+
+eventos = cargar_eventos()
+ultimos7 = eventos[eventos["fecha"] > hoy - timedelta(days=7)]
+
+c1, c2, c3, c4, c5 = st.columns(5)
 c1.metric("Presentaciones afectadas", f"{len(f):,}".replace(",", "."))
 c2.metric("Iniciados en los últimos 30 días", len(nuevos))
 c3.metric("Fin previsto en 30 días", len(fin_proximo))
 c4.metric("Laboratorios afectados", f["laboratorio"].nunique())
-st.caption("«Resueltos» aparecerá cuando haya varios días de histórico guardado.")
+c5.metric("Resueltos en los últimos 7 días", int((ultimos7["evento"] == "resuelto").sum()))
+
+with st.expander(f"Cambios de la última semana ({len(ultimos7)})"):
+    if ultimos7.empty:
+        st.write("Todavía no hay cambios registrados: hacen falta al menos dos días de descargas.")
+    else:
+        st.dataframe(ultimos7.sort_values("fecha", ascending=False)[["fecha", "evento", "cn", "nombre"]],
+                     hide_index=True, width="stretch",
+                     column_config={"fecha": st.column_config.DateColumn("Fecha", format="DD/MM/YYYY")})
+st.caption("Resueltos y cambios se calculan sobre todos los datos, sin aplicar los filtros.")
 
 if f.empty:
     st.info("Ningún registro cumple los filtros.")
