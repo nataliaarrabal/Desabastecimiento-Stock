@@ -1,13 +1,13 @@
 """
 Paso 4: enriquecer y limpiar los datos de la AEMPS.
 
-Qué hace:
-  1. Lee la última descarga de la AEMPS (datos_raw/aemps_AAAA-MM-DD.json).
-  2. Consulta CIMA por cada código nacional (CN) para añadir laboratorio,
+
+  1. Leer la última descarga de la AEMPS (datos_raw/aemps_AAAA-MM-DD.json).
+  2. Consultar CIMA por cada código nacional (CN) para añadir laboratorio,
      código ATC y principio activo. Guarda las respuestas en una caché, así
      los días siguientes solo consulta los CN nuevos (segundos en vez de minutos).
-  3. Convierte las fechas a hora de Madrid y se queda con el día.
-  4. Guarda:
+  3. Convertir las fechas a hora de Madrid y se queda con el día.
+  4. Guardar:
        datos_limpios/aemps_enriquecido_AAAA-MM-DD.csv  -> la tabla que leerá el dashboard
        datos_limpios/tipos_problema.csv                -> cada tipoProblemaSuministro con sus textos de observ
 
@@ -28,7 +28,7 @@ LIMPIOS = BASE / "datos_limpios"
 CACHE = BASE / "datos_cima" / "cache_medicamentos.json"
 
 URL_MEDICAMENTO = "https://cima.aemps.es/cima/rest/medicamento"
-CABECERAS = {"User-Agent": "TFG-desabastecimiento/0.1 (uso académico)"}
+CABECERAS = {"User-Agent": "Desabastecimiento-stck/0.1 (uso académico)"}
 ZONA = "Europe/Madrid"
 
 # Los 14 grupos anatómicos principales del ATC (primer carácter del código)
