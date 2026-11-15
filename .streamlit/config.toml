@@ -1,10 +1,10 @@
 [theme]
 base = "light"
 primaryColor = "#12505A"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F6F7F8"
+backgroundColor = "#F1F3F6"
+secondaryBackgroundColor = "#F8F9FB"
 textColor = "#15181C"
-borderColor = "#D5D8DD"
+borderColor = "#D5DAE0"
 baseRadius = "small"
 font = "Public Sans:https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
 headingFont = "Public Sans:https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
