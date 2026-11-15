@@ -91,7 +91,12 @@ input[type="checkbox"], input[type="radio"] {{ accent-color: {ACENTO}; }}
 [data-testid="stCheckbox"] label span:first-child[style*="background"] {{ background-color: {ACENTO} !important;
       border-color: {ACENTO} !important; }}
 input:focus, textarea:focus, [data-baseweb="select"] > div:focus-within {{ border-color: {ACENTO} !important; }}
-.paginas {{ display: flex; gap: 1.2rem; align-items: baseline; margin: .8rem 0; font-size: .88rem; }}
+.paginas {{ display: flex; gap: .6rem; align-items: center; margin: 1rem 0; font-size: .85rem; }}
+.paginas a {{ display: inline-flex; align-items: center; min-height: 36px; padding: 0 .9rem;
+      border: 1px solid {LINEA}; border-radius: 4px; color: {TINTA} !important; text-decoration: none !important;
+      font-weight: 500; background: #FFFFFF; }}
+.paginas a:hover {{ border-color: {ACENTO}; color: {ACENTO} !important; background: #EAF2F1; }}
+.paginas .nota {{ padding: 0 .4rem; font-variant-numeric: tabular-nums; }}
 </style>
 """)
 
@@ -432,11 +437,11 @@ def pagina_buscador():
 
         navegacion = []
         if pagina > 1:
-            navegacion.append(f'<a href="{enlace(pag=pagina - 1)}" target="_self">← Anterior</a>')
+            navegacion.append(f'<a href="{enlace(pag=pagina - 1)}" target="_self">‹ Anterior</a>')
         if n_paginas > 1:
             navegacion.append(f'<span class="nota">Página {pagina} de {n_paginas}</span>')
         if pagina < n_paginas:
-            navegacion.append(f'<a href="{enlace(pag=pagina + 1)}" target="_self">Siguiente →</a>')
+            navegacion.append(f'<a href="{enlace(pag=pagina + 1)}" target="_self">Siguiente ›</a>')
         if navegacion:
             st.html(f'<div class="paginas">{"".join(navegacion)}</div>')
         tabla = f[["cn", "nombre", "laboratorio", "tipo_texto", "fecha_fin_prevista", "n_disponibles"]]
