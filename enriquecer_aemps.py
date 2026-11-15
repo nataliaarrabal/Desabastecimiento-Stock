@@ -28,7 +28,7 @@ LIMPIOS = BASE / "datos_limpios"
 CACHE = BASE / "datos_cima" / "cache_medicamentos.json"
 
 URL_MEDICAMENTO = "https://cima.aemps.es/cima/rest/medicamento"
-CABECERAS = {"User-Agent": "Desabastecimiento-stck/0.1 (uso académico)"}
+CABECERAS = {"User-Agent": "Desabastecimiento-stock/0.1 (uso académico)"}
 ZONA = "Europe/Madrid"
 
 # Los 14 grupos anatómicos principales del ATC (primer carácter del código)

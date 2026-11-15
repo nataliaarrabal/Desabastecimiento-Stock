@@ -38,6 +38,9 @@ jobs:
       - name: Actualizar histórico (nuevos y resueltos)
         run: python historico.py
 
+      - name: Buscar alternativas por principio activo
+        run: python alternativas.py
+
       - name: Guardar los datos en el repositorio
         run: |
           git config user.name "github-actions[bot]"

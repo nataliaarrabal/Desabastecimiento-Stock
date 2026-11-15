@@ -25,7 +25,7 @@ HOY = date.today().isoformat()
 URL_AEMPS = "https://cima.aemps.es/cima/rest/psuministro"
 URL_EMA = "https://www.ema.europa.eu/en/documents/report/medicines-output-shortages-report_en.xlsx"
 
-CABECERAS = {"User-Agent": "Desabastecimiento-stck/0.1 (uso académico)"}
+CABECERAS = {"User-Agent": "Desabastecimiento-stock/0.1 (uso académico)"}
 
 
 def descargar_aemps():

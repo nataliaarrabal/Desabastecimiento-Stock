@@ -1,0 +1,14 @@
+{
+  "reglas": [
+    "Nuevo",
+    "Fin retrasado",
+    "Sin alternativa"
+  ],
+  "grupos_atc": [],
+  "laboratorios": [],
+  "medicamentos": {
+    "729828": "LENALIDOMIDA ACCORD 20 MG CAPSULAS DURAS EFG, 21 cápsulas"
+  },
+  "canal": "Email",
+  "destinatarios": ""
+}
