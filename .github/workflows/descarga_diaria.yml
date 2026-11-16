@@ -5,8 +5,13 @@ name: Descarga diaria
 
 on:
   schedule:
-    # Hora UTC: 08:17 UTC = 09:17 en Madrid en invierno (10:17 en verano)
+    # Tres intentos al día (hora UTC; Madrid = UTC+1 en invierno, UTC+2 en verano).
+    # GitHub a veces retrasa o se salta las tareas programadas: si la primera no se
+    # ejecuta, la siguiente recupera el día. No se duplica nada, porque el script no
+    # vuelve a descargar un día que ya tiene y solo se guarda si hay datos nuevos.
     - cron: "17 8 * * *"
+    - cron: "47 12 * * *"
+    - cron: "23 17 * * *"
   workflow_dispatch: # permite lanzarlo a mano desde la pestaña Actions
 
 permissions:
