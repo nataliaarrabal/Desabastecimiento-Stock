@@ -6,12 +6,12 @@ Se recomienda valorar el uso de Custodiol, Cardi-Braun, Cardi-Braun Mantenimient
 1,Consultar Nota Informativa: https://www.aemps.gob.es/informa/la-aemps-en-colaboracion-con-las-sociedades-medicas-implicadas-en-el-tratamiento-de-la-diabetes-emite-recomendaciones-de-uso-de-las-insulinas-de-accion-rapida/,1
 1,Consultar Nota Informativa: https://www.aemps.gob.es/informa/la-aemps-informa-de-un-retraso-en-el-restablecimiento-de-tranxilium-20-mg-polvo-y-disolvente-para-solucion-inyectable/,1
 2,Suministro sólo a hospitales.,2
-3,El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados.,60
+3,El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados.,58
 3,"El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados. Se puede solicitar como medicamento extranjero. Por favor, contactar con medicamentos en situaciones especiales para conocer las posibilidades de acceso al medicamento extranjero.",1
 4,Desabastecimiento temporal.,4
 4,Desabastecimiento temporal. Está disponible Pombility vial. También Nexviadyme como medicamento extranjero,1
 4,Desabastecimiento temporal. Se está gestionando la autorización de unidades acondicionadas en un idioma distinto al castellano por comercialización excepcional.,1
-5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración.,608
+5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración.,603
 5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. Retirada de lotes del mercado R_03/2026. Puede consultar toda la información en el siguiente enlace: https://www.aemps.gob.es/informa/palmeux-suspension-inyectable-de-liberacion-prolongada-en-jeringa-precargada-efg-varias-presentaciones/,4
 5,"Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. Además, se puede solicitar como medicamento extranjero.",2
 5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. El médico prescriptor deberá de considerar la mejor alternativa en su lugar al ser un medicamento de uso hospitalario y biológico.,2
@@ -32,7 +32,7 @@ Se recomienda valorar el uso de Custodiol, Cardi-Braun, Cardi-Braun Mantenimient
 5,"Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. Tambien hay unidades disponibles a través del Servicio de medicamentos en situaciones especiales
 https://www.aemps.gob.es/medicamentos-de-uso-humano/acceso-a-medicamentos-en-situaciones-especiales/",1
 5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. También hay unidades disponibles como medicamento extranjero.,1
-6,Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración.,66
+6,Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración.,67
 6,Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración. Las unidades disponibles están comprometidas para cubrir la campaña de vacunación en los centros adjudicatarios.,3
 6,Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración. Está disponible la presentación de 28 cápsulas.,1
 7,Se puede solicitar como medicamento extranjero.,38
@@ -52,6 +52,7 @@ https://www.aemps.gob.es/medicamentos-de-uso-humano/acceso-a-medicamentos-en-sit
 10,La AEMPS ha autorizado unidades por comercialización excepcional. Disponibles unidades etiquetadas en un idioma diferente al castellano para distribución solo a hospitales. Disponibles unidades en castellano para distribución a entidades de distribución.,1
 10,La AEMPS ha autorizado unidades por comercialización excepcional. En un idioma diferente al castellano,1
 10,La AEMPS ha autorizado unidades por comercialización excepcional. Se ha autorizado la comercialización de unidades acondicionadas en otro idioma.,1
+10,La AEMPS ha autorizado unidades por comercialización excepcional. Unidades acondicionadas en un idioma distinto al castellano,1
 10,La AEMPS ha autorizado unidades por comercialización excepcional. Unidades acondicionadas en un idioma distinto al castellano.,1
 10,La AEMPS ha autorizado unidades por comercialización excepcional. Unidades con caducidad inferior a 6 meses.,1
 10,La AEMPS ha autorizado unidades por comercialización excepcional. Unidades de la presentación de 2ml.,1
