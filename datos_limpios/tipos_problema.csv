@@ -10,7 +10,7 @@ Se recomienda valorar el uso de Custodiol, Cardi-Braun, Cardi-Braun Mantenimient
 3,"El médico prescriptor deberá determinar la posibilidad de utilizar otros tratamientos comercializados. Se puede solicitar como medicamento extranjero. Por favor, contactar con medicamentos en situaciones especiales para conocer las posibilidades de acceso al medicamento extranjero.",1
 4,Desabastecimiento temporal.,3
 4,Desabastecimiento temporal. Está disponible Pombility vial. También Nexviadyme como medicamento extranjero,1
-5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración.,604
+5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración.,597
 5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. Retirada de lotes del mercado R_03/2026. Puede consultar toda la información en el siguiente enlace: https://www.aemps.gob.es/informa/palmeux-suspension-inyectable-de-liberacion-prolongada-en-jeringa-precargada-efg-varias-presentaciones/,4
 5,"Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. Además, se puede solicitar como medicamento extranjero.",2
 5,Existe/n otro/s medicamento/s con el mismo principio activo y para la misma vía de administración. Está disponible Atomoxetina Tarbis 40 mg 28 capsulas,2
@@ -35,9 +35,9 @@ https://www.aemps.gob.es/medicamentos-de-uso-humano/acceso-a-medicamentos-en-sit
 6,Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración. Las unidades disponibles están comprometidas para cubrir la campaña de vacunación en los centros adjudicatarios.,3
 6,Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración. Está disponible la presentación de 1 vial.,1
 6,Existe/n otro/s medicamento/s con los mismos principios activos y para la misma vía de administración. Está disponible la presentación de 28 cápsulas.,1
-7,Se puede solicitar como medicamento extranjero.,38
+7,Se puede solicitar como medicamento extranjero.,37
 7,"Se puede solicitar como medicamento extranjero. a través de la aplicación de Medicamentos en Situaciones Especiales. | Se hará una distribución selectiva, debido al limitado número de unidades recibidas.",1
-9,El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas.,40
+9,El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas.,39
 9,El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas. Hay unidades extranjeras disponibles a través del Servicio de medicamentos en situaciones especiales para aquellos pacientes que no lo encuentren en las oficinas de farmacia,5
 9,"El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas. Además, se puede solicitar como medicamento extranjero únicamente para aquellos pacientes que cumplan la indicación autorizada recogida en la ficha técnica y que no puedan acceder a él por las vías habituales de suministro.",1
 9,"El titular de autorización de comercialización está realizando una distribución controlada al existir unidades limitadas. La Agencia ha autorizado la comercialización excepcional de unidades acondicionadas en otro idioma para suministro a hospitales.
@@ -64,4 +64,3 @@ Además, está comercializado RIFALDIN 300 mg CAPSULAS , 24 cápsulas.",1
 11,Existen tratamientos alternativos no sujetos a prescripción.,11
 12,El Titular de Autorización de Comercialización está realizando una distribución controlada a hospitales,7
 12,El Titular de Autorización de Comercialización está realizando una distribución controlada a hospitales Adicionalmente hay unidades extranjeras disponibles,1
-12,El Titular de Autorización de Comercialización está realizando una distribución controlada a hospitales El titular dispone de una cantidad limitada. Está disponible Lapatinib Stada 250 mg comprimidos,1
